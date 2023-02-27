@@ -7,6 +7,6 @@ window.onload = ()=>{
     // });
     navigator.geolocation.getCurrentPosition((position)=>{
         console.log(position);
-        document.write(`${position.coords.longitude} ${position.coords.latitude}`);
+        document.write(`${position.coords.longitude}  ${position.coords.latitude}`);
     });
 };
